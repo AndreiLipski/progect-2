@@ -1,0 +1,690 @@
+@charset "UTF-8";
+/* line 2, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+.body {
+  font-family: Rubik;
+  margin: auto;
+  max-width: 1440px;
+}
+
+/* line 6, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+.header {
+  display: flex;
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-top: 30px;
+}
+
+/* line 11, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+.menu-header {
+  display: none;
+}
+
+/* line 13, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+.nav-left {
+  display: flex;
+  width: 50%;
+}
+
+/* line 16, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+.nav-right {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+}
+
+/* line 20, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+.nav-menu {
+  padding-left: 0;
+}
+
+/* line 22, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+.nav-menu__list {
+  padding: 0;
+  display: flex;
+}
+
+/* line 25, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+.nav-menu__list-item {
+  margin-right: 40px;
+}
+
+/* line 28, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+.nav-menu__list-item:last-child {
+  margin-right: 0;
+}
+
+/* line 30, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+.a {
+  text-decoration: none;
+  color: #F3335C;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* line 35, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+.a-b {
+  display: inline-block;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  height: 69px;
+  padding: 20px;
+}
+
+/* line 44, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+.nav-menu__list-item {
+  list-style-type: none;
+}
+
+/* line 46, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+.main-section {
+  display: flex;
+  margin-bottom: 5%;
+}
+
+/* line 49, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+.main-section__wrapper-left {
+  padding-left: 120px;
+  width: 50%;
+}
+
+/* line 52, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+.main-section__wrapper-right {
+  width: 50%;
+  padding-right: 120px;
+}
+
+/* line 56, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+.title-main {
+  color: #F178B6;
+  font-size: 55px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  padding-top: 160px;
+}
+
+/* line 62, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+.text-main {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+/* line 66, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+.button-main {
+  background: #F3335C;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+}
+
+/* line 72, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+.button_size {
+  width: 260px;
+  height: 69px;
+}
+
+/* line 75, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+.second-section {
+  background-image: url("../img/Rectangle 4.png");
+  height: 780px;
+}
+
+/* line 78, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+.second-section__title {
+  color: #F178B6;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+/* line 82, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+.wrapper-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-top: 80px;
+  margin-bottom: 40px;
+}
+
+/* line 90, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+.wrapper-head__arrow {
+  margin: 3px;
+}
+
+/* line 92, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+.wrapper-card {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+/* line 97, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+.card-box {
+  max-width: 384px;
+  max-height: 484px;
+  background-color: #fff;
+  margin-right: 20px;
+}
+
+/* line 102, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+.card-box:last-child {
+  margin-right: 0;
+}
+
+/* line 104, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+.card-box__img {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+}
+
+/* line 108, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+.card-box__second {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* line 112, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+.card-box__text {
+  padding-left: 30px;
+  margin-bottom: 30px;
+  padding-top: 20px;
+}
+
+/* line 116, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+.card-box__button {
+  padding-right: 30px;
+}
+
+/* line 118, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+.card-box__btn {
+  width: 70px;
+  height: 70px;
+  background: #F3335C;
+  border: none;
+}
+
+/* line 123, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+.img-box {
+  max-width: 100%;
+}
+
+/* line 125, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+.text-box-h {
+  color: #F178B6;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+/* line 129, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+.text-box-p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* line 133, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+.carousel-indicators {
+  top: 105%;
+}
+
+/* line 136, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+.section-third {
+  min-height: 540px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* line 141, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+.section-third__wrepper-one {
+  padding-left: 120px;
+}
+
+/* line 143, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+.section-third__title {
+  color: #F178B6;
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+/* line 148, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+.section-third__text {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* line 151, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+.section-third__wrepper-third {
+  padding-right: 120px;
+}
+
+/* line 153, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+.form-select {
+  margin-bottom: 1rem;
+  height: 69px;
+  border-radius: 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* line 159, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+.carousel-control-next {
+  right: 5%;
+  top: -89px;
+  width: 40px;
+  height: 40px;
+}
+
+/* line 164, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+.carousel-control-prev {
+  left: 89%;
+  top: -89px;
+  width: 40px;
+  height: 40px;
+}
+
+/* line 169, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+.form-control {
+  border-radius: 0;
+  height: 69px;
+  font-size: 18px;
+}
+
+/* line 173, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+.carousel-indicators .active {
+  height: 15px;
+  width: 15px;
+  background-color: #F178B6;
+}
+
+/* line 177, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+.carousel-indicators [data-bs-target] {
+  height: 15px;
+  width: 15px;
+}
+
+/* line 181, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+.section-third-img {
+  max-height: 90vh;
+  margin: 4rem auto;
+}
+
+/* line 185, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-image: url("../img/Rectangle 5.png");
+  max-width: 1440px;
+  height: 135px;
+  margin: auto;
+  align-items: center;
+}
+
+/* line 193, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+.footer-text {
+  font-size: 14px;
+}
+
+/* line 195, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+.footer-number {
+  font-size: 25px;
+  color: #F3335C;
+  font-weight: 600;
+  margin: 0;
+}
+
+/* line 200, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+.wrapper-left {
+  padding-left: 120px;
+}
+
+/* line 202, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+.wrapper-right {
+  padding-right: 120px;
+}
+
+@media (max-width: 1199px) {
+  /* line 206, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+  .header {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  /* line 210, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+  .main-section__wrapper-left {
+    padding-left: 60px;
+  }
+  /* line 212, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+  .main-section__wrapper-right {
+    padding-right: 60px;
+  }
+  /* line 214, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+  .second-section {
+    height: 700px;
+  }
+  /* line 216, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+  .wrapper-head {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  /* line 219, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+  .wrapper-card {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  /* line 223, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+  .section-third__wrepper-one {
+    padding-left: 60px;
+  }
+  /* line 225, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+  .section-third__wrepper-third {
+    padding-right: 60px;
+  }
+  /* line 227, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+  .wrapper-left {
+    padding-left: 60px;
+  }
+  /* line 229, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+  .wrapper-right {
+    padding-right: 60px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 233, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+  .header {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  /* line 236, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+  .main-section-img {
+    width: 100%;
+  }
+  /* line 238, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+  .title-main {
+    padding-top: 20px;
+    margin-bottom: 10px;
+    font-size: 40px;
+  }
+  /* line 242, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+  .text-main {
+    margin-bottom: 20px;
+  }
+  /* line 245, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+  .main-section__wrapper-left {
+    padding-left: 30px;
+  }
+  /* line 247, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+  .main-section__wrapper-right {
+    padding-right: 30px;
+  }
+  /* line 249, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+  .second-section {
+    height: 500px;
+  }
+  /* line 251, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+  .second-section__title {
+    font-size: 30px;
+  }
+  /* line 253, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+  .text-box-h {
+    font-size: 18px;
+  }
+  /* line 255, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+  .card-box__btn {
+    width: 55px;
+    height: 55px;
+  }
+  /* line 258, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+  .wrapper-head {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+  }
+  /* line 263, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+  .wrapper-card {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  /* line 266, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+  .img-box {
+    width: 100%;
+  }
+  /* line 268, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+  .section-third {
+    justify-content: space-around;
+  }
+  /* line 270, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+  .section-third__wrepper-one {
+    padding-left: 30px;
+  }
+  /* line 272, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+  .section-third__wrepper-third {
+    padding-right: 30px;
+  }
+  /* line 274, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+  .wrapper-left {
+    padding-left: 30px;
+  }
+  /* line 276, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+  .wrapper-right {
+    padding-right: 30px;
+  }
+  /* line 278, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+  .section-third-img {
+    display: none;
+  }
+}
+
+@media (max-width: 720px) {
+  /* line 282, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+  .nav-menu {
+    position: fixed;
+    top: -100%;
+    right: 0;
+    height: 20vh;
+    width: 100%;
+    background-color: #f178b6;
+    z-index: 20;
+    transition: 1.2s all;
+  }
+  /* line 291, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+  .nav-menu__list {
+    flex-direction: column;
+    align-items: flex-start;
+    height: 50%;
+    justify-content: flex-start;
+    padding-left: 20px;
+  }
+  /* line 297, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+  .nav-menu__list-item {
+    margin-right: 0;
+    font-size: 20px;
+    padding-top: 30px;
+  }
+  /* line 301, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+  .a {
+    color: #ffff;
+  }
+  /* line 303, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+  .nav-left {
+    width: 100%;
+    justify-content: center;
+  }
+  /* line 306, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+  .main-section {
+    margin-bottom: 5%;
+    flex-direction: column;
+    align-items: center;
+    max-height: 1200px;
+  }
+  /* line 311, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+  .main-section__wrapper-left {
+    width: 98%;
+    margin-bottom: 60px;
+  }
+  /* line 314, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+  .main-section__wrapper-right {
+    width: 98%;
+    padding-left: 30px;
+    margin-bottom: 60px;
+  }
+  /* line 318, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+  .title-main {
+    font-size: 40px;
+    margin-bottom: 25px;
+  }
+  /* line 321, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+  .text-main {
+    font-size: 26px;
+    margin-bottom: 40px;
+  }
+  /* line 324, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+  .second-section {
+    height: 1680px;
+  }
+  /* line 327, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+  .wrapper-head {
+    padding: 0 50 0 30;
+    margin: 0 auto;
+    justify-content: center;
+  }
+  /* line 331, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+  .wrapper-card {
+    flex-direction: column;
+    padding: 0;
+    align-items: center;
+  }
+  /* line 335, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+  .card-box {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  /* line 338, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+  .card-box__btn {
+    width: 70px;
+    height: 70px;
+  }
+  /* line 341, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+  .text-box-h {
+    font-size: 26px;
+  }
+  /* line 343, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+  .text-box-p {
+    font-size: 20px;
+  }
+  /* line 345, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+  .carousel-control-next {
+    right: 26%;
+    top: 1511px;
+  }
+  /* line 348, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+  .carousel-control-prev {
+    left: 26%;
+    top: 1511px;
+  }
+  /* line 351, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+  .carousel-indicators {
+    top: 100%;
+  }
+  /* line 353, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+  .section-third-img {
+    display: flex;
+  }
+  /* line 355, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+  .section-third {
+    flex-direction: column;
+    padding: 0;
+    align-items: center;
+  }
+  /* line 359, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+  .section-third__wrepper-one {
+    padding: 0;
+    width: 100%;
+    text-align: center;
+  }
+  /* line 363, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+  .section-third__wrepper-two {
+    width: 96%;
+  }
+  /* line 365, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+  .section-third__wrepper-third {
+    padding: 0;
+    width: 96%;
+  }
+  /* line 368, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+  footer {
+    height: 200px;
+    flex-direction: column;
+    padding: 0;
+    align-items: center;
+  }
+  /* line 373, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+  .wrapper-left {
+    padding: 0;
+    text-align: center;
+  }
+  /* line 376, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+  .footer-text {
+    font-size: 20px;
+  }
+  /* line 378, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+  .wrapper-right {
+    padding: 0;
+    text-align: center;
+  }
+  /* line 381, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+  .hamburger {
+    width: 30px;
+    position: fixed;
+    top: 37px;
+    right: 30px;
+    height: 14px;
+    z-index: 31;
+  }
+  /* line 388, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+  .hamburger span {
+    height: 2px;
+    width: 100%;
+    background: #F3335C;
+    display: block;
+    margin-bottom: 4px;
+    transition: 1s all;
+  }
+  /* line 395, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+  .hamburger span:last-child {
+    margin-bottom: 0;
+  }
+  /* line 398, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+  .hamburger_active span {
+    background: #Ffff;
+    margin-bottom: -2px;
+  }
+  /* line 401, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+  .hamburger_active span:nth-child(1) {
+    transform: translateY(3px) rotate(-45deg);
+  }
+  /* line 403, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+  .hamburger_active span:nth-child(2) {
+    display: none;
+  }
+  /* line 405, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+  .hamburger_active span:nth-child(3) {
+    transform: translateY(3px) rotate(45deg);
+  }
+  /* line 407, ../../../../../Users/andreilipski/Documents/Учеба/Материалы web-разработка/prPirog/src/sass/style.sass */
+  .nav-menu_active {
+    display: block;
+    top: 0%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
